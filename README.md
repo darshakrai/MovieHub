@@ -6,7 +6,7 @@ and admin can add movie to the list and much more.
 
 <h2>Installation </h2>
 
-Use the package manager [npm](https://www.npmjs.com/) to install iCinema.
+Use the package manager [npm](https://www.npmjs.com/) to install MovieHub.
 Setup the project and install the packages by running:
 
 ```bash
