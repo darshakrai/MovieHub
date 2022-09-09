@@ -1,7 +1,6 @@
 # MovieHub
 
-A Full stack MERN website for movie theatres where user can search for movies and filter by rating and genres that are available,
-and admin can add movie to the list and much more.
+A movie app where users can search for movies that are available using filters such as rating and genres and also use features such as signup and login to bookmark their favourite movies.
 <img width="1438" alt="ss" src="https://user-images.githubusercontent.com/92095133/180652006-6e26c00e-dd6b-4406-ab59-ce35859cee58.png">
 
 <h2>Installation </h2>
@@ -21,36 +20,14 @@ npm run dev
 
 <h2> Built with  </h2>
 <ul>
-  <li>FrontEnd: <b> React.JS, Redux Library, Bootstrap, HTML/CSS </b></li>
-  <li>Backend:  <b> Node.JS, Express.JS </b> </li>
-  <li>Database: <b> MongoDB, Mongoose </b> </li>
+  <li>FrontEnd: <b> HTML/CSS, React JS </b></li>
+  <li>Backend:  <b> Node JS </b> </li>
 </ul>
 
 <h2> Features </h2>
 <ul>
   <li> Sign In / Sign Up / Sign Out the user. </li>
-  <li> Recieving a welcoming email when sign-up using Nodemailer. </li>
-  <li> Add a new movie to the list.</li>
+  <li> Bookmark the favourite movies </li>
+  <li> Filter movies by genre and rating.</li>
 </ul>
 
-<h2> API </h2>
-<h4> Users </h4>
-<ul>
-  <li> <b>POST</b> /api/users/signup </li>
-  <li> <b>POST</b>  /api/users/login  </li>
-  <li> <b>DELETE</b>  /api/users/:userID </li>
-</ul>
-
-<h4> Movies </h4>
-<ul>
-  <li> <b>GET</b> /api/movies </li>
-  <li> <b>POST</b> /api/movies/addmovie </li>
-  <li> <b>DELETE</b> /api/movies/:movieID </li>
-</ul>
-
-<h4> Genres </h4>
-<ul>
-  <li> <b>GET</b> /api/genres </li>
-  <li> <b>POST</b> /api/genres/addgenre </li>
-  <li> <b>DELETE</b> /api/movies/:genreID </li>
-</ul>
